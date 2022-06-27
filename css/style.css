@@ -1,0 +1,28 @@
+@font-face {
+    font-family: proxima-black;
+    src: url(../fonts/proxima_ssv/Proxima\ Nova\ Black.otf);
+  }
+
+@font-face {
+    font-family: proxima-thin;
+    src: url(../fonts/proxima_ssv/Proxima\ Nova\ Thin.otf);
+  }
+
+  @font-face {
+    font-family: proxima;
+    src: url(../fonts/proxima_ssv/ProximaNova-Regular.otf);
+}
+
+.aboutsec{
+    background : #e6fff9 !important;
+}
+
+.card-ti{
+    font-family: proxima-thin;
+    color : orange;
+}
+
+h1{
+    font-family: proxima !important;
+}
+
