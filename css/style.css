@@ -28,7 +28,7 @@ nav{
 }
 
 .card1, .card2, .card3{
-    background : rgb(69, 72, 88) !important;
+    background : rgb(130, 26, 199) !important;
     color : #fff;
 }
 
@@ -36,8 +36,20 @@ h1{
     font-family: proxima !important;
 }
 
+
+.services{
+    background : #0d0a29;
+}
+
+.card{
+    background : hsl(271, 95%, 78%);
+}
+
 @media screen and (max-width : 767px) {
     .card1, .card2, .card3{
         margin-top: 20px !important;
+    }
+    .ser_card1, .ser_card2, .ser_card3{
+        margin-top : 20px;
     }
 }
