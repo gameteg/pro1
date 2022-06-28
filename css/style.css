@@ -13,9 +13,13 @@
     src: url(../fonts/proxima_ssv/ProximaNova-Regular.otf);
 }
 
+@font-face {
+    font-family: proxima-light;
+    src: url(../fonts/proxima_ssv/Proxima\ Nova\ Alt\ Light.otf);
+}
 
 nav{
-    background : hsl(286, 84%, 93%)!important;
+    background : hsl(272, 83%, 93%)!important;
 }
 
 .aboutsec{
@@ -28,7 +32,7 @@ nav{
 }
 
 .card1, .card2, .card3{
-    background : rgb(130, 26, 199) !important;
+    background : rgb(243, 202, 69) !important;
     color : #fff;
 }
 
@@ -36,13 +40,25 @@ h1{
     font-family: proxima !important;
 }
 
-
-.services{
-    background : #0d0a29;
+p{
+    font-family : proxima;
 }
 
+.services{
+    background : #123449;
+}
+.services h2{
+    font-family: proxima-light;
+}
+
+
+.form_box input, textarea{
+    width : 300px;
+}
+
+
 .card{
-    background : hsl(271, 95%, 78%);
+    background : lightcyan;
 }
 
 @media screen and (max-width : 767px) {
@@ -51,5 +67,11 @@ h1{
     }
     .ser_card1, .ser_card2, .ser_card3{
         margin-top : 20px;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .form_box input, textarea{
+        width : 70%;
     }
 }
